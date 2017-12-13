@@ -19,12 +19,12 @@
       <div>
         <label>Album Description:</label>
         <br>
-        <textarea #newDescription></textarea>
+        <input #newDescription>
       </div>
       <div>
-        <label>Album Cover:</label>
+        <label>Album Cover URL:</label>
         <br>
-        <textarea #newalbumcover></textarea>
+        <input #newalbumcover>
       </div>
        <button (click)="submitForm(newTitle.value, newArtist.value, newDescription.value, newalbumcover.value); newTitle.value=''; newArtist.value=''; newDescription.value=''; newalbumcover.value=''">Add</button>
     </div>
