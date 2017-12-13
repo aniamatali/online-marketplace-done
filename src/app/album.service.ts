@@ -28,7 +28,8 @@ export class AlbumService {
                                 artist: localUpdatedAlbum.artist,
                                 albumcover: localUpdatedAlbum.albumcover,
                                 description: localUpdatedAlbum.description,
-                                genre: localUpdatedAlbum.genre});
+                                genre: localUpdatedAlbum.genre,
+                                background: localUpdatedAlbum.background});
   }
 
   deleteAlbum(localAlbumToDelete){

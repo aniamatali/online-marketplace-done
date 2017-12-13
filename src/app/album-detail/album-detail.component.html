@@ -1,11 +1,16 @@
-<div>
-  <h3>{{(albumToDisplay | async).title}}</h3>
-  <h4>{{(albumToDisplay | async).artist}}</h4>
-  <p>{{(albumToDisplay | async).description}}</p>
-  <p>{{(albumToDisplay | async).genre}}</p>
-  <img src="{{(albumToDisplay | async).albumcover}}" width=200px>
-
+<div class="bg" [ngStyle]="{'background-image':'url(https://cdn.dribbble.com/users/464874/screenshots/3278838/music-pattern.png)', width: 'auto', height: 'auto'}">
+  <div class="innerbg">
+        <h3>{{(albumToDisplay | async).title}}</h3>
+        <h3>{{(albumToDisplay | async).artist}}</h3>
+        <h3>{{(albumToDisplay | async).description}}</h3>
+        <h3>{{(albumToDisplay | async).genre}}</h3>
+        <h3>{{(albumToDisplay | async).background}}</h3>
+        <img src="{{(albumToDisplay | async).albumcover}}" width=200px>
+  </div>
 </div>
+
+
+
 
 <footer class="footer">
   <div class="container">

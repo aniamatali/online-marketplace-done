@@ -5,7 +5,7 @@
   <option value = "Rock">Rock</option>
   <option value = "Pop">Pop</option>
 </select>
-
+<br>
 <div *ngFor="let album of albums | async | genre:filterBygenre" class="panel panel-default" >
   <div class="panel-body">
     <h3 (click)="goToDetailPage(album)"><em>{{album.title}}</em> by {{album.artist}}</h3>

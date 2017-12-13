@@ -20,6 +20,11 @@
 <input [(ngModel)]="selectedAlbum.genre">
 <br>
 
+<label>Background Image:</label>
+<input [(ngModel)]="selectedAlbum.background">
+<br>
+
+
 <button (click)="beginUpdatingAlbum(selectedAlbum)">Update</button>
 <hr>
 <button (click)="beginDeletingAlbum(selectedAlbum)">Delete</button>

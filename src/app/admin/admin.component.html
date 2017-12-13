@@ -27,11 +27,30 @@
         <input #newalbumcover>
       </div>
       <div>
-        <label>Genre:</label>
-        <br>
-        <input #genre>
+        <select #newGenre>
+          <option value = "allgenres"> View all Genres</option>
+          <option value = "Rock">Rock</option>
+          <option value = "Pop">Pop</option>
+      </select>
       </div>
-       <button (click)="submitForm(newTitle.value, newArtist.value, newDescription.value, newalbumcover.value); newTitle.value=''; newArtist.value=''; newDescription.value=''; newalbumcover.value=''">Add</button>
+      <div>
+        <label>Background Image:</label>
+        <br>
+        <input #newBackground>
+      </div>
+       <button (click)="submitForm(
+          newTitle.value,
+          newArtist.value,
+          newDescription.value,
+          newalbumcover.value,
+          newGenre.value,
+          newBackground.value);
+          newTitle.value='';
+          newArtist.value='';
+          newDescription.value='';
+          newalbumcover.value='';
+          newGenre.value='';
+          newBackground.value='';">Add</button>
     </div>
   </div>
 </div>
