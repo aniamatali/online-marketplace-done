@@ -26,6 +26,11 @@
         <br>
         <input #newalbumcover>
       </div>
+      <div>
+        <label>Genre:</label>
+        <br>
+        <input #genre>
+      </div>
        <button (click)="submitForm(newTitle.value, newArtist.value, newDescription.value, newalbumcover.value); newTitle.value=''; newArtist.value=''; newDescription.value=''; newalbumcover.value=''">Add</button>
     </div>
   </div>

@@ -16,6 +16,10 @@
 <input [(ngModel)]="selectedAlbum.albumcover">
 <br>
 
+<label>Genre:</label>
+<input [(ngModel)]="selectedAlbum.genre">
+<br>
+
 <button (click)="beginUpdatingAlbum(selectedAlbum)">Update</button>
 <hr>
 <button (click)="beginDeletingAlbum(selectedAlbum)">Delete</button>
