@@ -2,14 +2,39 @@
   color:black;
 }
 
-.innerbg {
+/*.innerbg {
   padding:100px;
   font-size:20px;
-}
+}*/
 
 h3 {
-  background-color:#acaeaf;
-  margin:0px;
-  padding:5px;
-  
+  font-family: sans-serif;
+  margin-right:20px;
+  color:white;
+}
+
+img {
+  float:right;
+  margin-top:-193px;
+  margin-right:90px;
+}
+
+.crop {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 400px;
+    height: 300px;
+    margin: -75px 0 0 -100px;
+}
+
+ul li {
+  color:black;
+}
+
+li {
+  background-color:black;
 }

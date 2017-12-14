@@ -13,7 +13,7 @@
         background-image:url({{album.albumcover}});
       }
     </style>
-    <img src="{{album.albumcover}}" width=200px;>
+    <img src="{{album.albumcover}}" class="crop">
     <h3 (click)="goToDetailPage(album)"><em>{{album.title}}</em> by {{album.artist}}</h3>
     <div *ngIf="currentRoute === '/admin'">
       {{album.description}}
