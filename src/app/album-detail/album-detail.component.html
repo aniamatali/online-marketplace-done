@@ -1,13 +1,19 @@
 <!-- <div class="bg" [ngStyle]="{'background-image':'url(https://cdn.dribbble.com/users/464874/screenshots/3278838/music-pattern.png)', width: 'auto', height: 'auto'}"> -->
-  <div class="innerbg">
+
+    <div class="row">
+      <div class="col-md-9">
     <ul>
         <li><h3>{{(albumToDisplay | async).title}}</h3></li>
         <li><h3>{{(albumToDisplay | async).artist}}</h3></li>
         <li><h3>{{(albumToDisplay | async).description}}</h3></li>
-        <li><h3>{{(albumToDisplay | async).genre}}</h3></li>
+        <li class="lastli"><h3>{{(albumToDisplay | async).genre}}</h3></li>
     </ul>
-        <img src="{{(albumToDisplay | async).albumcover}}" width=200px>
   </div>
+  <div class="col-md-3">
+        <img src="{{(albumToDisplay | async).albumcover}}" width=200px>
+      </div>
+  </div>
+
 <!-- </div> -->
 
 

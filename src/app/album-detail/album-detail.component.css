@@ -9,14 +9,19 @@
 
 h3 {
   font-family: sans-serif;
-  margin-right:20px;
-  color:white;
+  margin-right:30px;
+  color:black;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom:0px;
+}
+
+ul {
+  margin-bottom:0px;
 }
 
 img {
-  float:right;
-  margin-top:-193px;
-  margin-right:90px;
+  margin-top:5px;
+  margin-bottom:5px;
 }
 
 .crop {
@@ -33,8 +38,9 @@ img {
 
 ul li {
   color:black;
+  margin-bottom:5px;
 }
 
-li {
-  background-color:black;
+.lastli {
+  margin-bottom:0px;
 }
